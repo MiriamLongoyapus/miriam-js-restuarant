@@ -1,4 +1,4 @@
-/* @media (min-width: 600px) and (max-width: 768px){
+/* /* @media (min-width: 600px) and (max-width: 768px){
     body{
         background-color: #fff;
     }
@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-   @media  (min-width: 600px) and (max-width: 768px){
+   /* @media  (min-width: 600px) and (max-width: 768px){
     body{
         background-color: lightgray;
     }
@@ -35,12 +35,12 @@
         margin-left: 2%;
         margin-right: 2%;
         color: white;
-        font-size: xx-large;
+        font-size: large;
 
     }
     heading{
-        margin-left: 40%;
-    font-size: x-large;
+        margin-left: 20%;
+    font-size: large;
     text-decoration-color: blue;
     margin-top: 20%;
     color: white;
@@ -54,8 +54,8 @@
     grid-template-columns: repeat(3,1fr);
     }
     images img{
-        height: 50vh;
-    width: 80%;
+        height: 25vh;
+    width: 40%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 8%;
@@ -65,7 +65,7 @@
         display: flex;
     margin-left: 4%;
     margin-top: -5%;
-    gap: 20%;
+    gap: 10%;
     font-size: smaller;
     color: white;
     }
@@ -93,8 +93,8 @@
     }
     menuimages img{
         border-radius: 4%;
-        height: 50vh;
-        width: 80%;
+        height: 25vh;
+        width: 40%;
         display: flex;
         justify-content: space-between;
     
@@ -106,12 +106,12 @@
     }
     reviews img{
         border-radius: 14%;
-        height: 20vh;
-        width: 40%;
+        height: 10vh;
+        width: 20%;
     
     }
     choose{
-        margin-left: 75%;
+        margin-left: 45%;
         margin-top: 15%;
     }
     choose img{
@@ -131,7 +131,7 @@
         margin-top: -45%;
         margin-left:10% ;
         height: 2%;
-        width: 50%;
+        width: 25%;
     }
     button{
         border-radius: 200px;
@@ -145,11 +145,11 @@
         margin-top: -45%;
         margin-left:10% ;
         height: 2%;
-        width: 50%;
+        width: 25%;
     }
     subscribe{
         margin-top: 10%;
-        padding-left: 38%;
+        padding-left: 18%;
         background-color: blue;
         border-top-right-radius: 20%;
         border-top-left-radius: 20%;
@@ -158,8 +158,8 @@
         display: grid;
         display: flex;
         margin-top: 10%;
-        padding-left: 38%;
-        gap: 50%;
+        padding-left: 18%;
+        gap: 25%;
       
         
     }
@@ -175,8 +175,8 @@
     
     }
     mainimg{
-        height: 68vh;
-        width: 90%;
+        height: 38vh;
+        width: 45%;
         margin-left: 3%;
         border-radius: 4%;
     }
@@ -188,14 +188,14 @@
     mainimage img{
         border-radius: 4%;
         height: 21vh;
-        width: 80%;
+        width: 40%;
         display: flex;
         justify-content: space-between;
         margin-top: 3%;
         margin-bottom: 3%;
     }
     ffc{
-        margin-left: 50%;
+        margin-left: 25%;
         background-color: rgb(219, 204, 204);
         margin-right: 20%;
         margin-bottom: 20%;
@@ -213,7 +213,7 @@
         display: grid;
         margin-top: 10%;
         padding-left: 5%;
-        gap: 30%;
+        gap: 15%;
         display: flex;
         background-color: rgb(241, 228, 228);
         padding: 2%;
@@ -263,12 +263,29 @@
     
     
     }
-    
-   } 
+     */
+
 
 body{
     background-color: lightgray;
 }
+@media screen and (max-width:600px)
+ {
+    main{
+        font-size: medium;
+    }
+    .navbar{
+       margin-left: 2%;
+       margin-right: 2%;
+       color: gray;
+       font-size: medium;
+      
+       
+    
+    }
+    
+}
+
 .main{
     background-image: url(imageA.jpg);
     background-size: cover;
@@ -344,9 +361,6 @@ body{
     margin-top: 8%;
     border-radius: 4%;
     text-align: left;
-    
-}
-.menu{
     
 }
 .menuimages{
@@ -479,8 +493,9 @@ button{
 #about{
     height: 50vh;
     width: 30%;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 25%;
+    margin-left: 8%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
 
 }
 .about{
@@ -492,20 +507,23 @@ button{
     width: 30%;
     margin-top: 15%;
     margin-left: 60%;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 25%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+
 
 
 }
 .vision{
     margin-top: -27%;
+    margin-left: 8%;
 
 }
 #approach{
     height: 50vh;
     width: 30%;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 25%;
+    margin-left: 8%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
     margin-top: 9%;
 
 }
@@ -528,5 +546,22 @@ button2{
 
 }
 .nav2{
-    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    font-size: xx-large;
+}
+.us{
+    margin-left: -30%;
+    margin: 5%;
+}
+.tableheader{
+    margin-left: 15%;
+}
+tablebar{
+    display: flex;
+    margin-left: 15%;
 }
